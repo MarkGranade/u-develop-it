@@ -1,0 +1,28 @@
+{
+  "name": "u-develop-it",
+  "version": "1.0.0",
+  "description": "* A __database__ is a collection of interrelated data. This data is stored in one or more tables that are related to one another\r * A __table__ is composed of rows and columns. A column represents a field. A row represents a record.\r * A __query__ is a request for data from a database table or a combination of tables",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkGranade/u-develop-it.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkGranade/u-develop-it/issues"
+  },
+  "homepage": "https://github.com/MarkGranade/u-develop-it#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3-rc.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
